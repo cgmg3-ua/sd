@@ -59,3 +59,8 @@ Ahora vamos a hacer uso del git bisect para ello primero dejaremos de hacer uso 
     (use "git push" to publish your local commits)
 
 Despues de eso eliminare los 3 ultimos commits y usare de nuevo pre-commit para ver que todo funcione correctamente.
+
+Por ultimo haré marge a main y volvere a hacer push a github.
+
+
+GITHUB:https://github.com/cgmg3-ua/sd.git
