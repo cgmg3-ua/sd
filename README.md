@@ -18,3 +18,15 @@ Biblioteca.cpp:43:9: error: expected ';' before 'cout'
          cout << "1. Registrar un libro" << endl;
          ^~~~
 Error: La compilación falló. No se puede hacer el commit.
+
+Asi quedaria con el proyecto funcionando correctamente.
+
+PS C:\Users\carlo\sd> git commit -m "prueba hook correcta"   
+El hook pre-commit se ha ejecutado
+[desarrollo_proyecto 68696e4] prueba hook correcta
+ 2 files changed, 16 insertions(+), 4 deletions(-)
+
+
+Ahora vamos a hacer uso del git bisect para ello primero dejaremos de hacer uso por ahora del hook para poder introducir errores para ello agregaremos a  pre-commit pre-commit.disabled .
+
+
