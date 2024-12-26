@@ -5,7 +5,7 @@ Libro::Libro(string t, string a, int anio) : titulo(t), autor(a), anioPublicacio
 
 // Método para mostrar los detalles del libro
 void Libro::mostrarDetalles() const {
-    cout << "Título: " << titulo
+    cout << "Titulo: " << titulo
          << ", Autor: " << autor
-         << ", Año: " << anioPublicacion << endl;
+         << ", Anyo: " << anioPublicacion << endl;
 }

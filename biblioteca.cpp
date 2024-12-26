@@ -39,11 +39,11 @@ void Biblioteca::mostrarMenu() {
     int opcion;
 
     do {
-        cout << "\n===== MENÚ =====" << endl;
+        cout << "\n===== MENU =====" << endl;
         cout << "1. Registrar un libro" << endl;
         cout << "2. Mostrar libros registrados" << endl;
         cout << "3. Salir" << endl;
-        cout << "Seleccione una opción: ";
+        cout << "Seleccione una opcion: ";
         cin >> opcion;
 
         switch (opcion) {
@@ -57,7 +57,7 @@ void Biblioteca::mostrarMenu() {
                 cout << "Saliendo del programa. ¡Hasta luego!" << endl;
                 break;
             default:
-                cout << "Opción no válida. Intente de nuevo." << endl;
+                cout << "Opción no valida. Intente de nuevo." << endl;
         }
     } while (opcion != 3);
 }
