@@ -23,7 +23,7 @@ void Biblioteca::registrarLibro() {
 // Método para mostrar todos los libros registrados
 void Biblioteca::mostrarLibros() const {
     if (libros.empty()) {
-        cout << "\nNo hay libros registrados." << endl;
+        cout << "\nNo hay libros registradoss." << endl;
         return;
     }
 
