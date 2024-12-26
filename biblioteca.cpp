@@ -39,7 +39,7 @@ void Biblioteca::mostrarMenu() {
     int opcion;
 
     do {
-        cout << "\n===== MENÚ =====" << endl;
+        cout << "\n===== MENU =====" << endl;
         cout << "1. Registrar un libro" << endl;
         cout << "2. Mostrar libros registrados" << endl;
         cout << "3. Salir" << endl;
